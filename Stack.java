@@ -27,4 +27,13 @@ public class Stack {
         }
         System.out.println("");
     }
+
+    //deleting element
+    public void deleteHead() {
+        System.out.println("deleting head ");
+        MyNode temp=head;
+        if(temp!=null) {
+            head=temp.next;
+        }
+    }
 }
