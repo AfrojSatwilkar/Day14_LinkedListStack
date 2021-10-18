@@ -2,20 +2,12 @@ package com.company1.LinkedListStack;
 
 public class StackMain {
     public static void main(String[] args) {
-        //deleting stack head element
-        System.out.println("deleting element ::");
+        //inserting element to queue
+        System.out.println("Inserting element into queue ::");
         Stack stack = new Stack();
-        stack.addNode(70);
-        stack.addNode(30);
         stack.addNode(56);
+        stack.addNode(30);
+        stack.addNode(70);
         stack.printList();
-        stack.peek();
-        stack.deleteHead();
-        stack.printList();
-        stack.peek();
-        stack.deleteHead();
-        stack.printList();
-        stack.peek();
-        stack.deleteHead();
     }
 }
