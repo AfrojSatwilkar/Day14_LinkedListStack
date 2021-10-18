@@ -24,4 +24,19 @@ public class Stack {
         }
         System.out.println("");
     }
+
+    public void peek(){
+        MyNode peekValue = head;
+        System.out.println("Top element is :");
+        System.out.println(head.data);
+    }
+
+    //deleting element
+    public void deleteHead() {
+        System.out.println("deleting top node");
+        MyNode temp=head;
+        if(temp!=null) {
+            head=temp.next;
+        }
+    }
 }
